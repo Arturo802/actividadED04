@@ -2,25 +2,39 @@ package cuentas;
 
 /**
  * Clase que representa una cuenta bancaria.
+ * Esta clase permite gestionar el saldo, realizar ingresos y retiros,
+ * y consultar el tipo de interés asociado a la cuenta.
  */
 public class CCuenta {
 
+    /**
+     * Nombre del titular de la cuenta.
+     */
     private String nombre;
+    /**
+     * Número de la cuenta bancaria.
+     */
     private String cuenta;
+    /**
+     * Saldo actual de la cuenta.
+     */
     private double saldo;
+    /**
+     * Tipo de interés aplicado a la cuenta.
+     */
     private double tipoInterés;
 
     /**
-     * Constructor por defecto.
+     * Constructor por defecto de la clase CCuenta.
      */
     public CCuenta() {
     }
 
     /**
-     * Constructor con parámetros.
+     * Constructor con parámetros de la clase CCuenta.
      *
      * @param nombre Nombre del titular de la cuenta.
-     * @param cuenta Número de la cuenta.
+     * @param cuenta Número de la cuenta bancaria.
      * @param saldo Saldo inicial de la cuenta.
      * @param tipoInterés Tipo de interés aplicado a la cuenta.
      */
@@ -50,7 +64,7 @@ public class CCuenta {
     }
 
     /**
-     * Obtiene el número de la cuenta.
+     * Obtiene el número de la cuenta bancaria.
      *
      * @return El número de la cuenta.
      */
@@ -59,7 +73,7 @@ public class CCuenta {
     }
 
     /**
-     * Establece el número de la cuenta.
+     * Establece el número de la cuenta bancaria.
      *
      * @param cuenta El número de la cuenta.
      */
@@ -68,18 +82,18 @@ public class CCuenta {
     }
 
     /**
-     * Obtiene el saldo de la cuenta.
+     * Obtiene el saldo actual de la cuenta.
      *
-     * @return El saldo de la cuenta.
+     * @return El saldo actual.
      */
     public double getSaldo() {
         return saldo;
     }
 
     /**
-     * Establece el saldo de la cuenta.
+     * Establece el saldo actual de la cuenta.
      *
-     * @param saldo El saldo de la cuenta.
+     * @param saldo El saldo actual.
      */
     public void setSaldo(double saldo) {
         this.saldo = saldo;

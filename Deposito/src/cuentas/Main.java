@@ -1,13 +1,15 @@
 package cuentas;
 /**
  * Clase principal para probar la clase CCuenta.
+ * Esta clase contiene el método main, que es el punto de entrada de la aplicación,
+ * y métodos para realizar operaciones de prueba con la clase CCuenta.
  */
 public class Main {
 
     /**
      * Método principal de la aplicación.
      *
-     * @param args Los argumentos de la línea de comandos (no se utilizan).
+     * @param args Los argumentos de la línea de comandos en la main (no se utilizan).
      */
     public static void main(String[] args) {
         CCuenta cuenta1 = new CCuenta("Antonio López", "1000-2365-85-1230456789", 2500, 0);
